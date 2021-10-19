@@ -1,0 +1,26 @@
+.user-pic img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 4px solid #0069d9;
+}
+.card {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+p {
+  margin: 0;
+  font-size: 14px;
+}
+.text {
+  margin-bottom: 10px;
+}
+
+hr {
+  margin: 5px 0;
+}
+
+.progress {
+  height: 8px;
+  margin: 5px 0;
+}

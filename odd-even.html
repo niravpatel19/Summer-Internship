@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags -->
+    <title>Odd-even</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container text-center">
+
+        <!-- manualy enter number -->
+
+        <h1 class="text-primary">Odd-Even Number</h1>
+        <input class="mt-2 text-dark border border-danger" type="number" id="number" name="table"
+            placeholder="Enter number"></br>
+        <input class="mt-4 btn btn-success" onclick="odd()" type="submit" value="Odd"></input>
+        <input class="mt-4 btn btn-success" onclick="even() " type="submit" value="Even"></input>
+
+    </div>
+    <div class="container mt-2 text-center">
+        <h1 id="odd-array" class="text-danger"></h1>
+    </div>
+    <div class="container mt-2 text-center">
+        <h1 id="Even-arry" class="text-danger"></h1>
+    </div>
+
+
+    <script>
+
+        // odd function
+
+        function odd() {
+            let number = document.getElementById("number").value;
+            var oddarry = []
+            for (i = 1; i <= number; i++) {
+                if (i % 2 != 0) {
+                    oddarry.push(i);
+                }
+            }
+            document.getElementById("odd-array").innerHTML = oddarry;
+        }
+
+        // even function
+
+        function even() {
+            let number = document.getElementById("number").value;
+            var evenarry = []
+            for (i = 1; i <= number; i++) {
+                if (i % 2 == 0) {
+                    evenarry.push(i);
+                }
+            }
+            document.getElementById("Even-arry").innerHTML = evenarry;
+        }
+    </script>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

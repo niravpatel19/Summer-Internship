@@ -1,0 +1,281 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:"nanum-pen";
+    font-family:"manrope";
+    font-family:"manrope-extra-light";
+    font-family:"manrope-light";
+    font-family:"manrope-medium";
+    font-family:"manrope-regular";
+    font-family:"manrope-bold";
+    font-family:"manrope-semiBold";
+    font-family:"manrope-extraBold";
+}
+
+/* font-family seaction */
+@font-face {
+    font-family:'nanum-pen';
+    src:url("../font/Nanum_Pen_Script/NanumPenScript-Regular.ttf") format("ttf");
+ }
+@font-face {
+    font-family:"manrope";
+    src: url("../font/manrope/OFL.txt") format("txt"),
+    url("../font/manrope/README.txt") format("txt"),
+    url("../font/manrope/manrope-VariableFont_wght.ttf") format("ttf");
+}
+@font-face{
+    font-family: "manrope-extra-light";
+    src: url("../font/manrope/manrope-ExtraLight.ttf") format("ttf");
+}
+    
+@font-face{
+    font-family: "manrope-light";
+    src: url("../font/manrope/manrope-Light.ttf") format("ttf");
+}
+@font-face{
+    font-family: "manrope-medium";
+    src: url("../font/manrope/manrope-Medium.ttf") format("ttf");
+
+}
+@font-face{
+    font-family: "manrope-regular";
+    src: url("../font/manrope/manrope-Medium.ttf") format("ttf");
+}
+@font-face{
+    font-family: "manrope-bold";
+    src: url("../font/manrope/manrope-Bold.ttf") format("ttf");
+}
+@font-face{
+    font-family: "manrope-semiBold";
+    src: url("../font/manrope/manrope-SemiBold.ttf") format("ttf");
+}
+@font-face{
+    font-family: "manrope-extraBold";
+    src: url("../font/manrope/manrope-ExtraBold.ttf") format("ttf");
+}
+
+.navbar .navbar-toggler-icon {
+    background-image:url(align-justify.png);
+}
+
+.home, .services, .our, .hire, .contact{
+    padding-right: 28px;
+                 padding-left: 28px;
+}
+
+.nav{
+    margin-top: 32px;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px; 
+}
+.nav{
+    margin-top: 32px;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px; 
+}
+.orange{
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    height: 50px;
+    width: 130px;
+   
+   /* identical to box height, or 125% */
+   
+    text-align: center;
+
+   
+   /* Default / White */
+   
+    color: #FFFFFF;
+    background-color :#EF6518;
+    border: 2px solid #EF6518;
+    border-radius: 8px;
+    font-size: 16px;  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 14px;
+   }
+   .text-blue{
+    color:#62B9E9;
+    }
+    .text-blue{
+        color:#62B9E9;
+        }
+
+
+        .all, .graphic, .mobile, .web{
+            padding-right: 28px;
+                         padding-left: 28px;
+        }
+
+
+        /* hover effect img */
+
+.my-demo {
+    position: relative;
+}
+
+.behind {
+    
+}
+
+.upper {
+    background: linear-gradient(180deg, #62B9E9 0%, #3F74B0 100%);
+    opacity: 0.8;
+    border-radius: 9px;
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 25px;
+    bottom: 0;
+}
+
+.behind:hover .upper {
+    display: block;
+}
+.imgtext{
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #263571;
+}
+
+.popover{
+    max-width: 485px;
+    height: 205px; /* Max Width of the popover (depending on the container!) */
+    background-color: #80C7ED;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    
+}
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    color: #62B9E9;
+  }
+
+
+
+  .my-popover {
+    position: relative;
+}
+
+.popover-text {
+    
+}
+
+.upper-popoverimg {
+   
+    opacity: 0.8;
+    border-radius: 9px;
+ 
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 25px;
+    bottom: 0;
+}
+
+     .A1{
+        font-family:'nanum-pen';
+        color: #EF6518;
+
+     }
+.A2{
+    font-family: "manrope-extra-light";
+    
+    color: aqua;
+}
+.A3{
+    font-family: "manrope-medium";
+    
+    color: aqua;
+}
+.A4{
+    font-family: "manrope-bold";
+    
+    color: aqua;
+}
+.A5{
+    font-family:"manrope-semiBold";
+    
+    color: aqua;
+}
+.A6{
+    font-family:"manrope-extraBold";
+    
+    color: aqua;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.col-md-3
+{
+    margin-bottom:20px;
+}
+
+.each-item
+{
+    position:relative;
+    overflow:hidden;
+}
+
+.each-item:hover .cap2, .each-item:hover .cap1
+{
+    left:0px;
+    
+}
+
+.cap1
+{
+    position:absolute;
+    width:100%;
+    height:70%;
+    background:rgba(255, 255, 255, 0.5);
+    top:0px;
+    left:-100%;
+    padding:10px;
+    
+    transition: all .5s;
+}
+
+.cap2
+{
+    position:absolute;
+    width:100%;
+    height:30%;
+    background:rgba(0, 178, 255, 0.5);
+    bottom:0px;
+    left:100%;
+    padding:10px;
+    
+    transition: all .5s;
+}
+
+.pentagon{
+    
+}
+
+
